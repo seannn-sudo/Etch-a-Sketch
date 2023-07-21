@@ -33,10 +33,6 @@ function changeColor(e,color){
 
 function changeGridColor(e){
   if (e.buttons === 1){
-    console.log(`eraseMode:${eraseMode}`)
-    console.log(`rainbowColorMode:${rainbowColorMode}`)
-    console.log(`shadingMode:${shadingMode}`)
-    console.log(`interactions:${interactions}`)
     e.preventDefault() //preventing dragging element event occuring cause by mousedown and mousemove events
     if (eraseMode){changeColor(e,'rgb(255,255,255)');}
     else if (rainbowColorMode){changeColor(e,randomColor());}
