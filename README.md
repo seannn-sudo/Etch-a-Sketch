@@ -1,0 +1,7 @@
+- Implemented the Etch-a-Sketch web app with drawing capabilities.
+- Users can adjust the grid size and draw using the selected pen color.
+- Added Shading mode for progressive darkening effect and Rainbow mode for random colors.
+- Introduced Erase mode to clear the grid.
+- Improved responsiveness and visual aesthetics.
+- Updated the font to 'DotGothic16' for a unique look.
+- Linked Google Fonts for better typography.
