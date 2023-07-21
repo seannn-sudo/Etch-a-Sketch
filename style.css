@@ -1,0 +1,70 @@
+* {
+    font-family: 'DotGothic16', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #121212;
+    color: #dbdbdb;
+    text-align: center;
+  }
+  
+  p {
+    margin: 0 0 5px;
+  }
+  
+  footer > p > a {
+    color: #dbdbdb;
+  }
+  
+  #container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+    flex-wrap: wrap-reverse;
+  }
+  
+  #settingPanel {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 20px 20px;
+  }
+  
+  #sketchPad {
+    background-color: white;
+    display: grid;
+    border: 1px solid black;
+    flex-basis: 500px;
+    aspect-ratio: 1 / 1;
+    box-shadow: 7px 7px rgba(99, 98, 98, 0.7);
+  }
+  
+  .grid-item {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+  }
+  
+  .changeColor {
+    background-color: black;
+  }
+  
+  #sketchPad.removeBorder {
+    border-bottom: none;
+    border-right: none;
+  }
+  
+  button {
+    font-size: 18px;
+  }
+  
+  .button-active, button:active {
+    background-color: rgb(255, 255, 116);
+  }
+  
+  #colorPicker, button {
+    box-shadow: 4px 4px rgba(99, 98, 98, 0.7);
+  }

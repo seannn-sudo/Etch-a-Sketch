@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Etch-a-Sketch</h1>
+    <div id="container">
+      <div id="settingPanel">
+        <div>
+          <p class="gridSize">Grid Size: 16x16</p>
+          <input id="sizeInput" type="range" min="1" max="100" value="16">
+        </div>
+        <div>
+          <p>Pen Color</p>
+          <input id="colorPicker" type ="color" value="#000000">
+        </div>
+        <button id="shadingMode">Shading</button>
+        <button id="rainbowMode">Rainbow </button>
+        <button id="eraseMode">Erase </button>
+        <button id="clearSketchPad">Clear</button>
+      </div>
+      <div id="sketchPad"></div>
+    </div>
+    <footer>
+      <p>
+        <a href="https://github.com/seannn-sudo" target="_blank">Copyright © <span id ="currentYear"></span> seannn-sudo
+        </a>
+      </p>
+    </footer>
+</body>
+</html>
