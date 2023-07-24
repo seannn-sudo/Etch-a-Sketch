@@ -2,7 +2,7 @@
 
 <h2>Description</h2>
 Etch-a-Sketch is a simple web application built using HTML, CSS, and JavaScript that allows users to draw and sketch on a virtual grid. The application provides various features such as changing the grid size, selecting different pen colors, shading, and erasing.
-
+<h2><a href ="https://seannn-sudo.github.io/Etch-a-Sketch/" >Live Demo</a></h2>
 <h2>Features</h2>
 <ul>
     <li>Adjustable Grid Size: Users can change the size of the grid to draw on, ranging from 1x1 to 100x100.</li>
